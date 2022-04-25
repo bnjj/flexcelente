@@ -112,3 +112,35 @@ body{
    
  }
 
+
+
+ @media (min-width: 992px) {
+
+    .contenedor__login{background-color: var(--ColorLogin);
+        width: 700px;
+        height: 300px;
+        justify-content: space-between;
+       flex-direction: row;
+    
+    border-radius: 25px;
+    
+    }
+    .contenedor__img{
+        background-size: cover;
+       background-position: center;
+       width: 100%;
+       
+        background-image: url("https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640");
+    }
+
+    .button{
+
+        margin-top: 20px;
+        background-color: var(--ColorBoton);
+        color: var(--ColorFuente);
+        padding: 20px 20px;
+      
+       
+     }
+
+ }
