@@ -83,7 +83,7 @@ body{
 .contenedor__form label{
   
     width: 75%;
-    
+    max-width: 600px;
     margin: 15px 0px;
 }
 
@@ -91,7 +91,7 @@ body{
     
    width: 75%;
    max-width: 600px;
-   padding:10px 35px;
+   padding:10px 20px;
    
    border: none;
    border-radius: 25px;
@@ -99,12 +99,16 @@ body{
    
 }
 
-.button{
+
+
+
+ .button{
+
     margin-top: 20px;
     background-color: var(--ColorBoton);
     color: var(--ColorFuente);
-    padding: 20px 0px;
+    padding: 10px 20px;
+  
    
-
  }
 
